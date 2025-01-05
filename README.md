@@ -9,5 +9,8 @@ This program performs operations on one matrix at a time, which include reading 
 ### Multiprocessing
 Creates multiple processes to compute the maximum and summation across all elements in a matrix for faster computation. The code also allows user commands to be read in from a file in addition to the terminal.
 
+### Networking
+Reads in matrices from information on different computer servers using UDP networking and TCP networking.
+
 ### Multithreading
 Program spawns multiple threads and uses it to sum through all elements and find the maximum of elements in a matrix. Two techniques are employed in this project; one uses threads spawned at the beginning of the program and maintains all threads throughout (The worker thread program), and the other uses threads being spawned solely for the tasks they are created for.
